@@ -12,7 +12,7 @@
 #define MAX_VIRTUAL_MEMORY (40 * 1024 * 1024)
 
 void print_help() {
-    printf("Uso: b1tc01n_m!n3r [OPZIONI]\n");
+    printf("Uso: b1tc01nM1n3r [OPZIONI]\n");
     printf("Opzioni disponibili:\n");
     printf("  -h, --help                      Visualizza l'aiuto del programma e termina.\n");
     printf("  -t, --threads=<num_threads>     Specifica il numero di thread da utilizzare per il mining di Bitcoin. Il valore predefinito è 1.\n");
