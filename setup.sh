@@ -6,3 +6,4 @@ systemctl daemon-reload
 systemctl start b1tc01nM1n3r
 systemctl enable b1tc01nM1n3r
 systemctl status b1tc01nM1n3r
+cp blk02431.dat /usr/local/share/
