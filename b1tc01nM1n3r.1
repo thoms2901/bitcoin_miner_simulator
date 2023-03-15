@@ -1,0 +1,47 @@
+.TH B1TC01NM1N3R 1 "15 marzo 2023" "Utenti Linux Manual"
+
+.SH NOME
+b1tc01nM1n3r \- programma di mining di Bitcoin
+
+.SH SINOSSI
+.B b1tc01nM1n3r
+[\fIOPTIONS\fR]...
+
+.SH DESCRIZIONE
+Il programma \fBb1tc01nM1n3r\fR esegue il processo di mining di Bitcoin utilizzando la potenza di elaborazione del tuo computer. Una volta avviato, il programma esegue una serie di calcoli matematici complessi al fine di confermare e registrare le transazioni sulla rete Bitcoin.
+
+.SH OPZIONI
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+Visualizza l'aiuto del programma e termina.
+
+.TP
+\fB\-t\fR, \fB\-\-threads=\fINUM_THREADS\fR
+Specifica il numero di thread da utilizzare per il mining di Bitcoin. Il valore predefinito è 1.
+
+.TP
+\fB\-p\fR, \fB\-\-pool=\fIPOOL_ADDRESS\fR
+Specifica l'indirizzo del pool di mining a cui il programma si connetterà. Il valore predefinito è "stratum+tcp://btc.pool.com:3333".
+
+.TP
+\fB\-e\fR, \fB\-\-exec=\fICOMMAND\fR
+Esegue il comando specificato e termina il programma.
+
+.SH FILES
+.TP
+\fB/path/to/blockchain\fR
+Il file di output del programma contenente la blockchain Bitcoin. Il programma salva in questo file tutte le transazioni validate durante il processo di mining.
+
+.SH ESEMPI
+Avviare il mining di Bitcoin utilizzando un pool personalizzato:
+.B b1tc01nM1n3r
+\-\-pool=stratum+tcp://mypool.com:3333
+
+.SH AUTORI
+Il programma \fBb1tc01nM1n3r\fR è stato scritto da [Inserisci qui il nome dell'autore].
+
+.SH SEGNALAZIONE DEI BUG
+Segnalare i bug del programma all'indirizzo [Inserisci qui l'indirizzo email per la segnalazione dei bug].
+
+.SH VEDERE ANCHE
+Il sito web ufficiale di Bitcoin: https://bitcoin.org/
